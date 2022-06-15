@@ -39,7 +39,7 @@ let shopingList = [
 ];
 
 
-for (let i = 7; i < 10; i++) {
+for (let i = 6; i < 10; i++) {
   shopingList.push([String(prompt("What item do you want to add to your shopping list?")), Number(prompt("What is the price of the item you added?"))]);
 
 }
