@@ -22,6 +22,6 @@ shopingList.push([String(addedItem), Number(addedPrice)]);
 console.log(shopingList);
 let total = 0;
 for (let i = 0; i < shopingList.length; i++) {
-    total += shopingList[i][1];
-    }
-console.log("£" + (total.toFixed(2)));
+  total += shopingList[i][1];
+}
+console.log("The price you need to pay is:", "", "£" + total.toFixed(2));
